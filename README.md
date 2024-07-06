@@ -20,21 +20,13 @@ Prerequisites
 
 Usage
 
-    Clone the repository:
-
-    bash
-
-git clone <repository_url>
+    Clone the repository: git clone https://github.com/TaukTauk/RSA-key-Generation-Encryption-Decryption/rsa_encryption.py
 
 Navigate to the project directory:
 
-bash
-
-cd <repository_directory>
+    cd RSA-key-Generation-Encryption-Decryption/
 
 Run the program:
-
-bash
 
     python rsa_encryption.py
 
@@ -42,26 +34,24 @@ bash
 
 Example
 
-yaml
-
-Enter your key message: Hello, RSA!
-The value of p :  719
-The value of q :  653
-Public key pair -> (e,n):  (127889, 469507)
-Private key pair -> (d,n):  (178273, 469507)
-Original message: Hello, RSA!
-Encrypted message: [312215, 277889, 249121, 249121, 191278, 65110, 106322, 312215, 213265, 120297, 191278]
-Decrypted message: Hello, RSA!
+    Enter your key message: Hello, RSA!
+    The value of p :  719
+    The value of q :  653
+    Public key pair -> (e,n):  (127889, 469507)
+    Private key pair -> (d,n):  (178273, 469507)
+    Original message: Hello, RSA!
+    Encrypted message: [312215, 277889, 249121, 249121, 191278, 65110, 106322, 312215, 213265, 120297, 191278]
+    Decrypted message: Hello, RSA!
 
 Functions
 
-    is_prime(num): Checks if a number is prime.
-    gcd(a, b): Computes the greatest common divisor of a and b.
-    mod_inverse(e, phi): Computes the modular inverse of e mod phi.
-    generate_keypair(bits): Generates the public and private key pairs.
-    encrypt(public_key, message): Encrypts the message using the public key.
-    decrypt(private_key, encrypted_message): Decrypts the message using the private key.
-    get_random_prime_greater_than_20(): Generates a random prime number greater than 20.
+is_prime(num): Checks if a number is prime.
+gcd(a, b): Computes the greatest common divisor of a and b.
+mod_inverse(e, phi): Computes the modular inverse of e mod phi.
+generate_keypair(bits): Generates the public and private key pairs.
+encrypt(public_key, message): Encrypts the message using the public key.
+decrypt(private_key, encrypted_message): Decrypts the message using the private key.
+get_random_prime_greater_than_20(): Generates a random prime number greater than 20.
 
 Contributing
 

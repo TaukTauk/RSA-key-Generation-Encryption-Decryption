@@ -20,7 +20,9 @@ Prerequisites
 
 Usage
 
-    Clone the repository: git clone https://github.com/TaukTauk/RSA-key-Generation-Encryption-Decryption/rsa_encryption.py
+Clone the repository: 
+
+    git clone https://github.com/TaukTauk/RSA-key-Generation-Encryption-Decryption/rsa_encryption.py
 
 Navigate to the project directory:
 

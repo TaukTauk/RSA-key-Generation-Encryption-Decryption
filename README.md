@@ -22,7 +22,7 @@ Usage
 
 Clone the repository: 
 
-    git clone https://github.com/TaukTauk/RSA-key-Generation-Encryption-Decryption/rsa_encryption.py
+    git clone https://github.com/TaukTauk/RSA-key-Generation-Encryption-Decryption/
 
 Navigate to the project directory:
 
@@ -30,7 +30,7 @@ Navigate to the project directory:
 
 Run the program:
 
-    python rsa_encryption.py
+    python3 rsa_encryption.py
 
     Enter your key message when prompted.
 
